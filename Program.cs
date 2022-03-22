@@ -1,7 +1,7 @@
 ﻿double kms, milhas;
 
 Console.Write("Digite para transformar milhas em kms: ");
-milhas = Convert.ToDouble (Console.ReadLine());
+milhas = Convert.ToDouble (Console.ReadLine()!);
 
 kms = milhas * 1.609;
 
